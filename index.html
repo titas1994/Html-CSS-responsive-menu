@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML and CSS responsive menu</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+
+<body>
+  <div id="background">
+    <nav>
+      <div class="logo">
+        <h1>Titas</h1>
+      </div>
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li class="nav-menu"><a class="active" href="#">Home</a></li>
+        <li class="nav-menu"><a href="#">About Me</a> </li>
+        <li class="nav-menu"><a href="#team">Team</a> </li>
+        <li class="nav-menu"><a href="#">Services</a></li>
+        <li class="nav-menu"><a href="#">Portfolio</a></li>
+        <li class="nav-menu"><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+    <header>
+      <div class="container" id="hero">
+        <h1>Welcome to <span>My Website</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore aliquam aut accusantium dicta,
+          dolorum quam ullam quod fuga, culpa voluptas consequatur numquam similique, quas dolorem?</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </header>
+  </div>
+  <section>
+    <div class="flex-box">
+      <div class="info">
+        <h1>About Me</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa rem eius aliquid porro laborum, expedita
+          culpa? A facilis quia esse tenetur quas molestiae omnis, veniam aperiam animi accusamus perferendis similique
+          numquam totam. Soluta, ipsum voluptas.</p>
+      </div>
+      <div>
+        <img class="about" src="https://source.unsplash.com/user/erondu/1600x900">
+      </div>
+    </div>
+  </section>
+  <section id="team">
+    <div class="teamdetails">
+      <h1>Our Team</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde dicta quo repellendus sequi iusto optio, quia
+        deleniti est nostrum laboriosam assumenda molestiae excepturi reprehenderit? Adipisci.</p>
+    </div>
+    <div class="card-container">
+      <div class="card">
+        <img class="team" src="img/christopher.jpg" alt="one">
+        <h1>Alena Smith</h1>
+        <h4>Founder</h4>
+        <p>Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Vitae, tempora!</p>
+          <div class="social-team">
+            <a href="#"><i class="fab fa-facebook center"></i></a>
+            <a href="#"><i class="fab fa-twitter center"></i></a>
+            <a href="#"><i class="fab fa-linkedin center"></i></a>
+            <a href="#"><i class="fab fa-youtube center"></i></a>
+          </div>
+      </div>
+      <div class="card">
+        <img class="team" src="img/craig-mckay-jmURdhtm7Ng-unsplash.jpg" alt="one">
+        <h1>Steven Smith</h1>
+        <h4>Co-Founder</h4>
+        <p>Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Vitae, tempora!</p>
+        <div class="social-team">
+          <a href="#"><i class="fab fa-facebook center"></i></a>
+          <a href="#"><i class="fab fa-twitter center"></i></a>
+          <a href="#"><i class="fab fa-linkedin center"></i></a>
+          <a href="#"><i class="fab fa-youtube center"></i></a>
+        </div>
+      </div>
+      <div class="card">
+        <img class="team" src="img/lucas-sankey-bXq8pVfP-fY-unsplash.jpg" alt="one">
+        <h1>Pual Smith</h1>
+        <h4>Head Chef</h4>
+        <p>Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Vitae, tempora!</p>
+        <div class="social-team">
+          <a href="#"><i class="fab fa-facebook center"></i></a>
+          <a href="#"><i class="fab fa-twitter center"></i></a>
+          <a href="#"><i class="fab fa-linkedin center"></i></a>
+          <a href="#"><i class="fab fa-youtube center"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
